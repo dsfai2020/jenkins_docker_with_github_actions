@@ -1,31 +1,8 @@
-name: Python Hello World
-
-on:
-    push:
-        branches:
-          - main
-    pull_request:
-        branches::
-          - main
-
+name: hello-world
+on: push
 jobs:
-    run_hello_world:
-        runs-on: ubuntu-latest
-
-        steps:
-        - name: Checkout repository
-          uses: actions/checkout@v2
-
-        - name: Set up Python
-          uses: actions/setup-python@v4
-          with:
-           python-version:  3.x
-
-        - name: Install Dependencies
-        run:  |
-          python -m pip install --upgrade pip
-            
-        - name: Run Hello World script
-           run: python hello_world.py
-
-            
+  my-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: my-step
+        run: echo "Hello World!"

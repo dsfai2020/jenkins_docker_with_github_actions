@@ -1,5 +1,6 @@
 Jenkins is using an official Jenkins image from dockerhub.
 
+<<<<<<< HEAD
 The goal is to create a basic jenkins repository that I can reference in the future for usability.
 
 ## Getting your docker image from Github
@@ -61,3 +62,8 @@ Log in and enjoy using Jenkins from this Docker setup.
 ## Getting your docker image from DockerHub
 
 Coming Soon...  An alternative way to pull the image.  Straight from DockerHub.
+=======
+Running a smoke test now to see if it causes Jenkins to trigger.
+
+[![hello-world](https://github.com/dsfai2020/jenkinsT/actions/workflows/python-hello-world.yml/badge.svg)](https://github.com/dsfai2020/jenkinsT/actions/workflows/python-hello-world.yml)
+>>>>>>> 91d8a69ec6b02ba0b14ca1bf9bf2588eccc98fba
